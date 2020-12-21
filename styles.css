@@ -18,7 +18,7 @@
 
   .button {
     border-color: rgb(104, 97, 165);
-    color:rgb(104, 97, 165);
+    color:rgb(70, 66, 110);
   }
   
   .button:hover {
@@ -55,4 +55,20 @@
     position: absolute;
     right: -70px;
    
+  }
+  .LoginButton{
+    border-color:#ffd460;
+    color: #000000;
+  }
+  .LoginButton:hover{
+    background-color: #ffd460;
+    color: #ffffff;
+  }
+  .RegisterButton{
+    border-color:#ffd460;
+    color: #000000;
+  }
+  .RegisterButton:hover{
+    background-color: #ffd460;
+    color: #ffffff;
   }
