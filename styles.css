@@ -1,6 +1,10 @@
+.body {
+  background-image: url('background_light_py');
+}
+
 .button {
     background-color: #ffffff;
-    border: none;
+    
     color: rgb(0, 0, 0);
     padding: 15px 64px;
     text-align: center;
@@ -11,6 +15,17 @@
     cursor: pointer;
 
   }
+
+  .button {
+    border-color: rgb(104, 97, 165);
+    color:rgb(104, 97, 165);
+  }
+  
+  .button:hover {
+    background-color:rgb(104, 97, 165);
+    color: white;
+  }
+
   .LoginButton {
     background-color: #ffffff;
     border: none;
