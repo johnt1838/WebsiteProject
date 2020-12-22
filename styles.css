@@ -31,3 +31,10 @@ li a:hover:not(.active) {
 .active {
   background-color:rgb(104, 97, 165);
 }
+.center {
+  display: block;
+  opacity:0.4;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50 %;
+}
