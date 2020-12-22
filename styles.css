@@ -1,74 +1,33 @@
-/*.body {
-  background-image: url('Desktop\Project NOtes\background_light_py.jpg');
-}*/
+body {margin:0;}
 
-.button {
-    background-color: #ffffff;
-    
-    color: rgb(0, 0, 0);
-    padding: 15px 64px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 70px 5px;
-    cursor: pointer;
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
 
-  }
+li {
+  float: left;
+}
 
-  .button {
-    border-color: rgb(104, 97, 165);
-    color:rgb(70, 66, 110);
-  }
-  
-  .button:hover {
-    background-color:rgb(104, 97, 165);
-    color: white;
-  }
+li a {
+  display: block;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px 28px;
+  text-decoration: none;
+}
 
-  .LoginButton {
-    background-color: #ffffff;
-    border: none;
-    color: rgb(0, 0, 0);
-    padding: 2px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 20px 100px;
-    cursor: pointer;
-    position: absolute;
-    right: 70px;
+li a:hover:not(.active) {
+  background-color: #111;
+}
 
-  }
-  .RegisterButton {
-    background-color: #ffffff;
-    border: none;
-    color: rgb(0, 0, 0);
-    padding: 2px 32px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    margin: 20px 100px; /* Margin = perithorio */
-    cursor: pointer;
-    position: absolute;
-    right: -70px;
-   
-  }
-  .LoginButton{
-    border-color:#ffd460;
-    color: #000000;
-  }
-  .LoginButton:hover{
-    background-color: #ffd460;
-    color: #ffffff;
-  }
-  .RegisterButton{
-    border-color:#ffd460;
-    color: #000000;
-  }
-  .RegisterButton:hover{
-    background-color: #ffd460;
-    color: #ffffff;
-  }
+.active {
+  background-color:rgb(104, 97, 165);
+}
