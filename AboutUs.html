@@ -16,6 +16,32 @@
       background-size: cover;
       background-color:#ffc400;
     }
+
+    #parent {
+        display: table;
+        width: 100%;
+        height: 200px;
+        font-size:75px;
+        font-family: fantasy;
+        text-align:center;
+        
+      }
+      #child {
+        display: table-cell;
+        vertical-align: middle;
+      }
+
+      #paragraph {
+        
+          padding: 50px;
+          background: #ffc400;
+          background-clip:content-box;
+          font-size:40px;
+          text-align: center;
+          background-size: cover;
+
+      }
+
     </style>
   
 </head>
@@ -32,6 +58,22 @@
       <li style="float:right"><a href="login.html">Login</a></li>
     </ul>
 
+
+   
+    
+    <div id="parent">
+      <div id="child">About us</div>
+    </div>
+
+    <div id = "paragraph">
+    <p> We are college students and we will make your life easier.
+      We are college students and we will make your life easier.
+      We are college students and we will make your life easier.
+      We are college students and we will make your life easier.
+      We are college students and we will make your life easier</p>
+  </div>
+   
+    
     
 
 
