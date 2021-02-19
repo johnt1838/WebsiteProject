@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #eee;
+}
+
+.container-fluid{
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
+.container-fluid h2{
+    width: 82%;
+    font-size: 40px;
+    color: #ffc400;
+    background-color: rgb(104, 97, 165);
+    border-radius: 10px;  
+    justify-self: center;
+    padding: 0.2em 0.3em;
+    margin-bottom: 50px;
+}
+
+.container-fluid h2::after{
+    content: "";
+    position: absolute;
+    bottom: 0;
+    right: 9px;
+    width: 67px;
+    height: 2px;
+    background-color: hotpink;
+}
+
+.accordion{
+    width: 90%;
+    padding: 0 7px;
+    border: 2px solid rgb(104, 97, 165);
+    cursor: pointer;
+    border-radius: 25px;
+    display: flex;
+    margin: 10px 0;
+    align-items: center;
+    background: rgba(255, 196, 0, 0.8);
+}
+
+.accordion .icon{
+    margin: 0 7px 0 0;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: no-repeat 8px 8px rgb(104, 97, 165);
+    color: #fff;
+    border-radius: 25%;
+    float: left;
+    transition: all .5s ease-in;
+}
+
+.accordion h4{
+    font-size: 24px;
+    margin: 0;
+    padding: 3px 0 0;
+    font-weight: normal;
+    color: #000;  /* xrwma apo grammata px erwtisi 4 */
+}
+
+.active1 .icon{
+    background-color: black;
+    color: #fff;
+}
+
+
+.panel{
+    padding: 0 8px;
+    border-left: 3px solid #ffc400;
+    margin-left: 25px;
+    font-size: 16px;
+    text-align: justify;
+    overflow: hidden;
+    max-height: 0px;
+    transition: all .5s ease-in;
+    background-color: #fff;
+    border-radius: 10px;
+}

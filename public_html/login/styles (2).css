@@ -1,0 +1,91 @@
+body {margin:0;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px 28px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(104, 97, 165);
+}
+
+.active {
+  background-color:rgb(104, 97, 165);
+}
+
+
+/**********************************************/
+
+/* Gia to logged in as */
+
+.container{
+  text-align: center;
+  position: absolute;
+  top: 6%;
+  left: 95%;
+  transform: translate(-50%,-50%);
+  width: 100%;
+
+}
+
+.container span{
+  display: block;
+
+}
+
+.text1{
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: 5px;
+  margin-bottom: -40px;
+  position: relative;
+  animation: text 2s 1;
+}
+
+.text2{
+  font-size: 30px;
+  color: aquamarine;
+
+}
+
+@keyframes text{
+
+  0%{
+      color: black;
+      margin-bottom: -40px;
+  }
+
+  30%{
+      letter-spacing: 20px;
+      margin-bottom: -40px;
+
+  }
+
+  85%{
+      letter-spacing: 8px;
+      margin-bottom: -40px;
+  }
+
+
+}
+
+/**********************************************/
