@@ -10,7 +10,8 @@ Contributors :
 - Konstantinos Mpakalaros
 - Chrysostomos Papathanasiou
 
-domain: no-notes.tk
+
 ---------------------------------------------------------
 Website Status:
-19/02/2021 11:52 Live 
+19/02/2021 - 19/08/2021 (🟢Live for 6 months on a free hosting platform)
+20/08/2021 - today (🔴Down - to be transferred in a new Server)
