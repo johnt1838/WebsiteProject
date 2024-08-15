@@ -13,5 +13,5 @@ Contributors :
 
 ---------------------------------------------------------
 Website Status:
-19/02/2021 - 19/08/2021 (🟢Live for 6 months on a free hosting platform)
-20/08/2021 - today (🔴Down - to be transferred in a new Server)
+- 19/02/2021 - 19/08/2021 (🟢Live for 6 months on a free hosting platform)
+- 20/08/2021 - today (🔴Down - to be transferred in a new Server)
