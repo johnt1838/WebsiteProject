@@ -15,8 +15,7 @@ body {
   font-size: 1.5rem;
   color: rgba(104, 97, 165, 0.9);
   text-shadow:
-      0 0 1ex rgb(104, 97, 165)
-      0 0 2px rgba(255, 255, 255, 0.8);
+    0 0 1ex rgb(104, 97, 165) 0 0 2px rgba(255, 255, 255, 0.8);
 }
 
 .noise {
@@ -37,8 +36,7 @@ body {
   width: 100%;
   height: 100%;
   background:
-      repeating-linear-gradient(
-      180deg,
+    repeating-linear-gradient(180deg,
       rgba(0, 0, 0, 0) 0,
       rgba(0, 0, 0, 0.3) 50%,
       rgba(0, 0, 0, 0) 100%);
@@ -57,8 +55,7 @@ body {
   bottom: 0;
   width: 100%;
   height: 100%;
-  background-image: linear-gradient(
-      0deg,
+  background-image: linear-gradient(0deg,
       transparent 0%,
       rgba(104, 97, 165, 0.2) 2%,
       rgba(104, 97, 165, 0.8) 3%,
@@ -69,8 +66,13 @@ body {
 }
 
 @keyframes scan {
-  0%        { background-position: 0 -100vh; }
-  35%, 100% { background-position: 0 100vh; }
+  0% {
+    background-position: 0 -100vh;
+  }
+
+  35%, 100% {
+    background-position: 0 100vh;
+  }
 }
 
 .terminal {
@@ -86,8 +88,8 @@ body {
 .output {
   color: rgba(104, 97, 165, 0.8);
   text-shadow:
-      0 0 1px rgba(104, 97, 165, 0.4),
-      0 0 2px rgba(255, 255, 255, 0.8);
+    0 0 1px rgba(104, 97, 165, 0.4),
+    0 0 2px rgba(255, 255, 255, 0.8);
 }
 
 .output::before {
@@ -98,8 +100,8 @@ body {
 .input {
   color: rgba(104, 97, 165, 0.8);
   text-shadow:
-  0 0 1px rgba(104, 97, 165, 0.4),
-      0 0 2px rgba(255, 255, 255, 0.8);
+    0 0 1px rgba(104, 97, 165, 0.4),
+    0 0 2px rgba(255, 255, 255, 0.8);
 }
 
 .input::before {
@@ -121,5 +123,6 @@ a::after {
 }
 
 .errorcode {
-  color: #ffc400;;
+  color: #ffc400;
+  ;
 }
