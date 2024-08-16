@@ -1,46 +1,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-    background-image: url(background_light_py.jpg);
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    background-color: #ffc400;
-    margin: 0;
-    padding: 0;
-  }
- 
-  
-  ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
-    position: fixed;
-    top: 0;
-    width: 100%;
-    font-family: 'Roboto', sans-serif;
-  }
-  
-  li {
-    float: left;
-  }
-  
-  li a {
-    display: block;
-    color: white;
-    font-size: 20px;
-    text-align: center;
-    padding: 15px 28px;
-    text-decoration: none;
-  }
-  
-  li a:hover:not(.active) {
-    background-color: rgb(104, 97, 165);
-  }
-  
-  .active {
-    background-color:rgb(104, 97, 165);
+  background-image: url(/assets/images/general/background_light_py.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: #ffc400;
+  margin: 0;
+  padding: 0;
+}
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  font-size: 20px;
+  text-align: center;
+  padding: 15px 28px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(104, 97, 165);
+}
+
+.active {
+  background-color: rgb(104, 97, 165);
 }
