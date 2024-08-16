@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 body {
-  background-image: url(/assets/images/general/background_light_py.jpg);
+  background-image: url(assets/images/general/background_light_py.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-attachment: fixed;
