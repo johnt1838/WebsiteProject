@@ -1,27 +1,27 @@
 <?php
-    $message_sent = false;
-    
-    if(isset($_POST['email']) && $_POST['email'] != ''){
-        
-        if(filter_var($_POST['email'], FILTER_VALIDATE_EMAIL) ){
-            $user_name = $_POST['name'];
-            $user_email = $_POST['email'];
-            $messageSubject = $_POST['subject'];
-            $message = $_POST['message'];
-            
-            $to = "konstantinosskate@gmail.com";
-            $body = "";
-            
-            $body .= "From: ".$user_name. "\r\n";
-            $body .= "Email: ".$user_email. "\r\n";
-            $body .= "Message: ".$message. "\r\n";
-            
-            mail($to,$messageSubject,$body); 
-            
-            $message_sent = true;
-        }
-        
+$message_sent = false;
+
+if (isset($_POST['email']) && $_POST['email'] != '') {
+
+    if (filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {
+        $user_name = $_POST['name'];
+        $user_email = $_POST['email'];
+        $messageSubject = $_POST['subject'];
+        $message = $_POST['message'];
+
+        $to = "konstantinosskate@gmail.com";
+        $body = "";
+
+        $body .= "From: " . $user_name . "\r\n";
+        $body .= "Email: " . $user_email . "\r\n";
+        $body .= "Message: " . $message . "\r\n";
+
+        mail($to, $messageSubject, $body);
+
+        $message_sent = true;
     }
+
+}
 ?>
 
 
@@ -44,9 +44,10 @@
 <body>
 
     <ul>
-        <li><a href="index.html">NOtes</a></li>
+        <li><a href="index.php">NOtes</a></li>
         <li><a href="faqs.html">FAQs</a></li>
-        <li class="active"></liclass><a href="support.php">Υποστήριξη</a></li>
+        <li class="active">
+            </liclass><a href="support.php">Υποστήριξη</a></li>
         <li><a href="AboutUs.html">About Us</a></li>
         <li style="float:right"><a href="/login/signup.php">Register</a></li>
         <li style="float:right"><a href="/login/login.php">Login</a></li>
@@ -58,7 +59,8 @@
         <div class="content">
 
             <h2>Contact Us</h2>
-            <p>Στην σελίδα υποστήριξης μπορείτε να μας στείλετε τύχον προβλήματα ή τυχόν ερωτήσεις, συμπληρώνοντας τα παρακάτω πεδία.
+            <p>Στην σελίδα υποστήριξης μπορείτε να μας στείλετε τύχον προβλήματα ή τυχόν ερωτήσεις, συμπληρώνοντας τα
+                παρακάτω πεδία.
             </p>
         </div>
 
@@ -92,7 +94,7 @@
 
 
             <div class="contactForm">
-                <form action = "support.php" method = "POST">
+                <form action="support.php" method="POST">
                     <h2>Send Message</h2>
                     <div class="inputBox">
                         <input type="text" name="name" required="required">
@@ -105,7 +107,7 @@
                     </div>
 
                     <div class="inputBox">
-                        <textarea name = "message" required="required" ></textarea>
+                        <textarea name="message" required="required"></textarea>
                         <span>Type your message</span>
                     </div>
 

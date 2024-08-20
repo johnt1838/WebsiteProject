@@ -1,0 +1,26 @@
+version: '3.9'
+services:
+  # Apache webserver service
+  webserver:
+    container_name: PHP-webServer
+    build:
+    # Dockerfile path
+      context: .
+      dockerfile: Dockerfile  
+    # Mount the local ./app directory to /var/www/html in the container
+    volumes:
+      - ./app:/var/www/html 
+    # Map port 8000 on the host to port 80 on the container 
+    ports:
+      - 8000:80  
+    depends_on:
+      - postgres
+
+  postgres:
+    image: postgres:16.0
+    environment:
+      POSTGRES_DB: test_database
+      POSTGRES_USER: db_user
+      POSTGRES_PASSWORD: db_password
+    ports:
+      - "5432:5432"
